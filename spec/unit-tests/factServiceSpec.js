@@ -13,7 +13,7 @@ describe("#FactService", function() {
     var fact = FactService.getOstrichFact();
     console.log("factService ", FactService);
     //Expect a camel fact to return from the fact service.
-    expect(fact["ostrich-fact"]).toContain("Ostriches");
+    expect(fact["ostrich-fact"]).toContain("Ostriches1");
   });
 
 });
